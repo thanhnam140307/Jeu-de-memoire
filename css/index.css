@@ -1,0 +1,58 @@
+body 
+{
+    margin-top: 200px;
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+section, div
+{
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+img 
+{
+    width: 60px;
+}
+
+h1 
+{   
+    margin-left: 10px;
+    color: white;
+    font-size: 40px;
+    /*https://www.javaguides.net/2024/09/how-to-create-neon-text-effect-with-html-and-css.html*/
+    text-shadow: 0 0 5px white,  
+                0 0 10px white, 
+                0 0 20px white,
+                0 0 40px white,
+                0 0 100px white;
+}
+
+input
+{
+    font-size: 20px;
+    border-radius: 60px;
+    padding: 5px;
+}
+
+.writeName
+{
+    width: 600px;
+    background-color:rgb(48, 47, 47);
+    color: white;
+    border: 0px;
+}
+
+.error
+{
+    color: red;
+    text-align: center;
+}
+
+.submit-btn 
+{
+    margin-top: 10px;
+    width: 615px;
+}

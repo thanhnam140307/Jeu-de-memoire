@@ -1,0 +1,86 @@
+body 
+{
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+section
+{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.title
+{
+    display: flex;
+    justify-content: flex-start;    
+    align-items: center; 
+}
+
+img 
+{
+    width: 50px;
+}
+
+h1
+{
+    margin-left: 10px;
+    font-size: 40px;
+    /*https://www.javaguides.net/2024/09/how-to-create-neon-text-effect-with-html-and-css.html*/
+    text-shadow: 0 0 5px white,  
+                0 0 10px white, 
+                0 0 20px white,
+                0 0 40px white,
+                0 0 100px white;
+}
+
+.btn-x
+{
+    margin-top: 5px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: center; 
+    display: grid;
+    grid-template: 150px 150px 150px 150px / 150px 150px 150px 150px;
+    gap: 10px;
+}
+
+.cards > div
+{
+    font-size: 100px;
+    background-color: rgb(61, 58, 58);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.bouton
+{
+    display: flex;
+    justify-content: center;
+    gap: 5px; 
+}
+
+button
+{
+    font-size: 20px;
+    border-radius: 60px;
+    padding: 5px;
+}
+
+.replay-btn 
+{
+    margin-top: 10px;
+    width: 500px;
+}
+
+.newGame-btn
+{
+    margin-top: 10px;
+}
