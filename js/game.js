@@ -85,20 +85,12 @@ function isCardsSame() {
         }
         else {
             count = 0;
+            firstValue = 0;
+            secondValue = 0;
         }
     }
     return isSame;
 }
-
-function onReset() {
-    for (let i = 0; i < allCards.length; i++) {
-        allCards[i].innerHTML = "✖";
-        cardsVisible[i] = false;
-    }
-    count = 0;
-}
-/* 
-BONNE VERSION
 
 function onReset() {
     for (let i = 0; i < allCards.length; i++) {
@@ -108,7 +100,7 @@ function onReset() {
         }
     }
     count = 0;
-}*/
+}
 
 function onNewGame() {
     for (let i = 0; i < cardsValue.length; i++) {
