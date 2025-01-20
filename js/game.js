@@ -30,8 +30,7 @@ function generateRandomIndex(min, max) {
 }
 
 function onShuffleEmoji() {
-    for (let i = 0; i < cardsValue.length; i++) {
-        //PROF: ne doit pas partir du début à chaque fois
+    for (let i = cardsValue.length - 1; i > 0; i--) {
         let random = generateRandomIndex(min, max);
         let currentvalue = cardsValue[i];
         cardsValue[i] = cardsValue[random];
