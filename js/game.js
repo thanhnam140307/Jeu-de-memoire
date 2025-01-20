@@ -1,12 +1,10 @@
 "use strict";
-//PROF: const
-let min = 0;
-let max = 15;
+const min = 0;
+const max = 15;
 let count = 0;
 let firstValue = 0;
 let secondValue = 0;
-//PROF: c'est un tableau, initialisez-le vide
-let allCards;
+let allCards = [];
 let cards = document.getElementById("cards");
 document.getElementById("replay").addEventListener("click", onReset, false);
 document.getElementById("new-game").addEventListener("click", onNewGame, false);
