@@ -1,6 +1,6 @@
 # Memory Game / Jeu de Mémoire  
 
-This project was created at the end of 2024 as a final project for the year at Cégep Saint-Foy. While this README and the license are in English, the rest of the content is in French.  
+This project was created at the end of 2024 as a final project for the first session at Cégep Saint-Foy. While this README and the license are in English, the rest of the content is in French.  
 
 ## Game Description  
 
